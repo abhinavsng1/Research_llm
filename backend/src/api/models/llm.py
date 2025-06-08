@@ -1,7 +1,7 @@
 #models/llm.py
 from pydantic import BaseModel
 from typing import Optional, List, Dict, Any
-from .base import BaseResponse
+from api.models.base import BaseResponse
 
 class LLMRequest(BaseModel):
     prompt: str
